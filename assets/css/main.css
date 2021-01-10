@@ -2534,7 +2534,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	}
 }
 
-/* Currently On this screen size */
+/* Computor */
 @media screen and (max-width: 1280px) {
 	#headerCard{
 		width: 45%;
@@ -2556,6 +2556,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	}
 }
 
+/* iPade */
 @media screen and (max-width: 980px) {
 	#banner {
 		background-attachment: scroll;
@@ -2575,12 +2576,17 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 		padding: 0 1.5em;
 	}
 }
-/* With console */
+/* Phone */
 @media screen and (max-width: 736px) {
+	.borderCard{
+		width: 100%;
+	}
 	#headerCard{
 	width: 50%;
 	}
 	#banner {
+		height: 500px;
+		width:120%;
 		padding: 2em 0 3em 0;
 	}
 	#banner .inner {
